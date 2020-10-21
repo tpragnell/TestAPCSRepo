@@ -9,10 +9,8 @@ public class Demo{
   }
 
   public static void main(String[] args) {
-    int n;
-    if(args.length == 0)
-      n = 5;
-    else
+    int n = 5;
+    if(args.length != 0)
       n = Integer.parseInt(args[0]);
     printLoop(n);
   }
